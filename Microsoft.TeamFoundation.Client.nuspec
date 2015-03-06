@@ -5,7 +5,6 @@
     <version>12.0.21005.1</version>
     <title>nuget-bot.Microsoft.TeamFoundation.Client</title>
     <authors>Microsoft</authors>
-    <owners>microsoft</owners>
     <projectUrl>https://msdn.microsoft.com/en-us/library/microsoft.teamfoundation.client.aspx</projectUrl>
     <licenseUrl>https://msdn.microsoft.com/en-us/library/microsoft.teamfoundation.client.aspx</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
