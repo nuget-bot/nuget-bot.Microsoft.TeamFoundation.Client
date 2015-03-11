@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>nuget-bot.Microsoft.TeamFoundation.Client</id>
-    <version>12.0.21005.1</version>
+    <version>12.0.21005.2</version>
     <title>nuget-bot.Microsoft.TeamFoundation.Client</title>
     <authors>Microsoft</authors>
     <projectUrl>https://msdn.microsoft.com/en-us/library/microsoft.teamfoundation.client.aspx</projectUrl>
@@ -11,7 +11,11 @@
     <description>The Microsoft.TeamFoundation.Client namespace provides the APIs to connect to Visual Studio Team Foundation Server and to access data about team project collections and team projects.</description>
     <copyright>© Microsoft Corporation. All rights reserved.</copyright>
     <tags>Microsoft TeamFoundation Client nuget-bot</tags>
-    <dependencies></dependencies>
+    <dependencies>
+		<group>
+			<dependency id="nuget-bot.Microsoft.VisualStudio.Services.Common" version="12.0.21005.1" />
+		</group>
+	</dependencies>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
