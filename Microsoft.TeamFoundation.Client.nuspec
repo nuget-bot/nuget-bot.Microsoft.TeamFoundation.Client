@@ -13,7 +13,11 @@
     <tags>Microsoft TeamFoundation Client nuget-bot</tags>
     <dependencies>
 		<group>
+			<dependency id="nuget-bot.Microsoft.TeamFoundation.Common" version="12.0.30501.1" />
+			<dependency id="nuget-bot.Microsoft.TeamFoundation.Diff" version="12.0.30501.1" />
+			<dependency id="nuget-bot.Microsoft.VisualStudio.Services.Client" version="12.0.21005.1" />
 			<dependency id="nuget-bot.Microsoft.VisualStudio.Services.Common" version="12.0.21005.1" />
+			<dependency id="nuget-bot.Microsoft.VisualStudio.Services.WebApi" version="12.0.21005.1" />
 		</group>
 	</dependencies>
     <releaseNotes></releaseNotes>
